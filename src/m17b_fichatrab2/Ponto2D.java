@@ -3,14 +3,14 @@ package m17b_fichatrab2;
 public class Ponto2D {
     
     /**
-     * @param x para a primeira coordenada do ponto
-     * @param y para a segunda coordenada do ponto
+     * @param x para a primeira coordenada do ponto.
+     * @param y para a segunda coordenada do ponto.
      */
     private int x;
     private int y;
     
     /**
-     * construtor sem parametros
+     * construtor sem parametros.
      */
     public Ponto2D(){
         x = y = 0;
