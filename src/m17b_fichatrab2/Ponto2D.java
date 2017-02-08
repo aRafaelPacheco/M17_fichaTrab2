@@ -17,6 +17,11 @@ public class Ponto2D {
         return (Math.sqrt((a.x-x)*(a.x-x) + (a.y-y)*(a.y-y)));
     }
 
+    @Override
+    public String toString() {
+        return "Ponto2D{" + "x=" + x + ", y=" + y + '}';
+    }
+
     /**
      * @return the x
      */
