@@ -12,6 +12,7 @@ public class Ponto2D {
         this.y = y;        
     }
     
+    
     /**
      * 
      * @param a é o outro ponto
