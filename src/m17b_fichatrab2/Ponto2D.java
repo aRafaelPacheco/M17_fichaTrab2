@@ -1,12 +1,26 @@
 package m17b_fichatrab2;
 
 public class Ponto2D {
+    
+    /**
+     * @param x para a primeira coordenada do ponto
+     * @param y para a segunda coordenada do ponto
+     */
     private int x;
     private int y;
     
+    /**
+     * construtor sem parametros
+     */
     public Ponto2D(){
         x = y = 0;
     }
+    /**
+     * construtor com parâmetros
+     * @param x
+     * e 
+     * @param y 
+     */
     public Ponto2D(int x, int y){
         this.x = x;
         this.y = y;        
@@ -15,8 +29,8 @@ public class Ponto2D {
     
     /**
      * 
-     * @param a é o outro ponto
-     * @return a que é a distância entre os dois pontos
+     * @param a é o ponto parametrizado
+     * @return a distancia entre os dois pontos
      */
     public double distancia(Ponto2D a){
         // Falta fazer este método.
