@@ -6,6 +6,11 @@ public class Main {
         // Ficha de Trabalho #2
         
         /**
+         * @author Rafael Pacheco
+         */
+
+        
+        /**
          * criação de dois pontos: p1 & p2.
          */
         Ponto2D p1 = new Ponto2D(5,7);
